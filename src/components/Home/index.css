@@ -1,0 +1,109 @@
+.search-movie {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: rgb(75, 73, 73);
+  text-align: center;
+}
+.input-text {
+  height: 41px;
+  width: 300px;
+  border-left: 1px solid #797676;
+  border-bottom: 1px solid #797676;
+  border-top: 1px solid #797676;
+  border-right: 0px solid #797676;
+  outline: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 6px;
+  margin-left: 20px;
+}
+.search-button {
+  height: 55px;
+  width: 40px;
+  cursor: pointer;
+  border-left: 0px solid #797676;
+  border-bottom: 1px solid #797676;
+  border-top: 1px solid #797676;
+  border-right: 1px solid #797676;
+  outline: none;
+  background-color: transparent;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-top: 17px;
+  padding-bottom: 20px;
+}
+.search-icon {
+  color: #797676;
+}
+
+.movie-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.home-container {
+  text-align: center;
+}
+.movie-initial {
+  height: 250px;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.sort-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20px;
+  height: 30px;
+  width: 200px;
+  border: 1px solid #797676;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: #797676;
+  font-family: "Roboto";
+}
+.options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+.option-text {
+  height: 30px;
+  width: 200px;
+  border: 1px solid #797676;
+}
+.title-sort {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: rgb(75, 73, 73);
+  text-align: center;
+  padding-top: 10px;
+}
+.movie-sort-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+  .input-text {
+    width: 200px;
+  }
+}
